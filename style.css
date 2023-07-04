@@ -1,0 +1,16 @@
+body {
+  font-family: IranSansX;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+header {
+  padding: 1rem;
+  font-size: 14px; }
+  header .logo {
+    width: auto;
+    height: 1.5rem; }
+
+/*# sourceMappingURL=style.css.map */
