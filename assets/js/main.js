@@ -6,7 +6,8 @@ $(document).ready(function () {
     new Swiper(".newest", {
         slidesPerView: 1.5,
         slidesPerGroup:1,
-        spaceBetween: 10,
+        // spaceBetween: 10,
+        spaceBetween: 18,
         freeMode:true,
         pagination: {
             el: ".swiper-pagination-newest",
@@ -23,7 +24,7 @@ $(document).ready(function () {
             },
             768: {
                 slidesPerView: 3,
-                spaceBetween: 20,
+
                 slidesPerGroup:3,
             },
             992: {

@@ -92,7 +92,7 @@ header {
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   justify-content: center;
-  top: 30% !important;
+  top: 25% !important;
   &:after {
     font-size: small;
     color: black;
@@ -256,4 +256,9 @@ header {
 
 .more-btn {
   padding: 0.8rem 1.3rem;
+}
+.playlist-item{
+  &:hover{
+    color: #444;
+  }
 }
