@@ -92,7 +92,7 @@ header {
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   justify-content: center;
-
+  top: 30% !important;
   &:after {
     font-size: small;
     color: black;
@@ -102,7 +102,7 @@ header {
     opacity: 0;
   }
 
-  top: 30% !important;
+
 
   &.swiper-button-next {
     right: -2rem;
