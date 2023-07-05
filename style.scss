@@ -91,19 +91,24 @@ header {
     font-size: small;
     color: black;
   }
-  &.swiper-button-disabled{
+
+  &.swiper-button-disabled {
     opacity: 0;
   }
 
-  top: 30%!important;
+  top: 30% !important;
+
+  &.swiper-button-next {
+    right: -2rem;
+  }
+
+  &.swiper-button-prev {
+    left: -2rem;
+  }
 
 }
-.swiper-button-next, .swiper-rtl .swiper-button-prev{
-  right: -2rem;
-}
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
-  left: -2rem;
-}
-.swiper-pagination-bullet{
+
+
+.swiper-pagination-bullet {
   background-color: black;
 }

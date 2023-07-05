@@ -6,4 +6,15 @@ body {
   right: initial;
   left: 1rem; }
 
+.swiper-button-next {
+  left: -2rem;
+  right: initial !important; }
+
+.swiper-button-prev {
+  right: -2rem;
+  left: initial !important; }
+
+.swiper-button-next, .swiper-button-prev, .fa-chevron-right {
+  transform: scaleX(-1); }
+
 /*# sourceMappingURL=rtl.css.map */
