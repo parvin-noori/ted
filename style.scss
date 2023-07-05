@@ -262,3 +262,20 @@ header {
     color: #444;
   }
 }
+.footer{
+  background-color: black;
+  color: white;
+  .footer-logo{
+    height: 2rem;
+    path{
+      fill: white;
+    }
+  }
+  .footer-menu{
+    a{
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}

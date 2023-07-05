@@ -162,4 +162,14 @@ header {
 .playlist-item:hover {
   color: #444; }
 
+.footer {
+  background-color: black;
+  color: white; }
+  .footer .footer-logo {
+    height: 2rem; }
+    .footer .footer-logo path {
+      fill: white; }
+  .footer .footer-menu a:hover {
+    text-decoration: underline; }
+
 /*# sourceMappingURL=style.css.map */
