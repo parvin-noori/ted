@@ -228,6 +228,9 @@ header {
       }
     }
   }
+  .swiper{
+    overflow: visible;
+  }
 }
 
 @media (min-width: 768px) {
@@ -253,7 +256,4 @@ header {
 
 .more-btn {
   padding: 0.8rem 1.3rem;
-}
-.swiper{
-  overflow: visible;
 }

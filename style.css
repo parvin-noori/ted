@@ -142,7 +142,10 @@ header {
       .recommendation .recommendation-content h3 {
         flex-grow: 1; }
       .recommendation .recommendation-content .recommends-link {
-        width: 100%; } }
+        width: 100%; }
+
+  .swiper {
+    overflow: visible; } }
 @media (min-width: 768px) {
   .recommendation-content {
     position: absolute;
@@ -155,8 +158,5 @@ header {
 
 .more-btn {
   padding: 0.8rem 1.3rem; }
-
-.swiper {
-  overflow: visible; }
 
 /*# sourceMappingURL=style.css.map */
