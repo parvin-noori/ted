@@ -242,3 +242,15 @@ header {
 
   }
 }
+
+.post-item {
+  &:hover {
+    .title {
+      color: #444;
+    }
+  }
+}
+
+.more-btn {
+  padding: 0.8rem 1.3rem;
+}

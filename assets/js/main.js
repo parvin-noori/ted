@@ -30,7 +30,7 @@ $(document).ready(function () {
                 slidesPerView: 3,
                 slidesPerGroup:3,
             },
-            1024: {
+            1200: {
                 slidesPerView: 5,
                 slidesPerGroup:5,
             },

@@ -150,5 +150,10 @@ header {
     right: 1rem;
     transform: translateY(-50%);
     width: 60%; } }
+.post-item:hover .title {
+  color: #444; }
+
+.more-btn {
+  padding: 0.8rem 1.3rem; }
 
 /*# sourceMappingURL=style.css.map */
