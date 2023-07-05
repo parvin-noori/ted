@@ -1,3 +1,9 @@
+body {
+  direction: rtl;
+  font-family: IranSansX; }
 
+.item .item-time {
+  right: initial;
+  left: 1rem; }
 
 /*# sourceMappingURL=rtl.css.map */
