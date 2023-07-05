@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>ted</title>
-    <!--    <link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">-->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/figtree.css">
     <link rel="stylesheet" href="assets/css/iransansX.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="rtl.css">
+<!--    <link rel="stylesheet" href="rtl.css">-->
     <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -76,7 +76,7 @@
 </header>
 
 <!--slider-->
-<section class="slider overflow-hidden mb-5">
+<section class="slider overflow-hidden mb-md-5 mb-1">
     <div class="container-fluid px-0">
         <div class="row">
             <div class="col-12">
@@ -127,7 +127,7 @@
             </div>
         </a>
         <div class="row gx-3">
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-md-5 mb-3">
                 <a href="#" class="item featuredItem d-flex flex-column">
                     <div class="img-item position-relative mb-1">
                         <img src="assets/imgs/ImranChaudhri_2023-embed.jpg" alt="" class="w-100">
@@ -139,7 +139,7 @@
                     <span class="item-subtitle text-muted  text-uppercase">Imran Chaudhri</span>
                 </a>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-md-5 mb-3">
                 <a href="#" class="item featuredItem d-flex flex-column">
                     <div class="img-item position-relative mb-1">
                         <img src="assets/imgs/WangechiMutu_2023-embed.jpg" alt="" class="w-100">
@@ -151,7 +151,7 @@
                     <span class="item-subtitle text-muted  text-uppercase">Wangechi Mutu</span>
                 </a>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col-md-4 mb-md-5 mb-3">
                 <a href="#" class="item featuredItem d-flex flex-column">
                     <div class="img-item position-relative mb-1">
                         <img src="assets/imgs/IanBremmer_2023-embed.jpg" alt="" class="w-100">
@@ -337,6 +337,16 @@
         </div>
     </div>
 </section>
+
+<!--navigation bar-->
+<div class="navigation-bar position-fixed bottom-0 d-md-none d-block">
+    <ul class="nav">
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i class="fa-regular fa-house mb-2 fs-5"></i><span class="small">home</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i class="fa-light fa-magnifying-glass mb-2 fs-5"></i><span class="small">browse</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i class="fa-light fa-bookmark mb-2 fs-5"></i><span class="small">my library</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i class="fa-light fa-headphones mb-2 fs-5"></i><span class="small">podcasts</span></a></li>
+    </ul>
+</div>
 
 <!--mobile menu-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">

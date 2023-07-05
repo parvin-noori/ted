@@ -4,7 +4,7 @@ $(document).ready(function () {
     new Swiper('.slider', {});
 
     new Swiper(".newest", {
-        slidesPerView: 2,
+        slidesPerView: 1.5,
         slidesPerGroup:1,
         spaceBetween: 10,
         pagination: {

@@ -112,3 +112,25 @@ header {
 .swiper-pagination-bullet {
   background-color: black;
 }
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+  border:none!important;
+}
+@media (max-width: 768px) {
+  .navigation-bar{
+    right: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    z-index: 1;
+    ul{
+      width: 100%;
+      grid-auto-columns: minmax(20%, auto);
+      grid-auto-flow: column;
+      display: grid;
+      gap: 1rem;
+      a{
+        padding: 1rem;
+      }
+    }
+  }
+}
