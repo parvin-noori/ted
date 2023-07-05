@@ -175,6 +175,9 @@ header {
       background-size: cover;
     }
 
+    .recommendation-content {
+
+    }
 
 
   }
@@ -197,7 +200,7 @@ header {
       top: 50%;
       right: 50%;
       transform: translate(50%, -50%);
-
+      width: auto;
 
     }
 
@@ -207,12 +210,15 @@ header {
 @media (max-width: 768px) {
   .recommendation {
     height: 20rem;
-    .recommendation-img{
+
+    .recommendation-img {
       height: 55%;
     }
-    .recommendation-content{
+
+    .recommendation-content {
       height: 45%;
       padding: 1rem;
+
       h3 {
         flex-grow: 1;
       }
@@ -223,12 +229,13 @@ header {
     }
   }
 }
+
 @media (min-width: 768px) {
   .recommendation-content {
     position: absolute;
     top: 50%;
     right: 1rem;
-    transform: translateY( -50%);
+    transform: translateY(-50%);
     width: 60%;
     //padding: 1rem;
 

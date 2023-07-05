@@ -129,7 +129,8 @@ header {
       position: absolute;
       top: 50%;
       right: 50%;
-      transform: translate(50%, -50%); } }
+      transform: translate(50%, -50%);
+      width: auto; } }
 @media (max-width: 768px) {
   .recommendation {
     height: 20rem; }
