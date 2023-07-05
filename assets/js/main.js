@@ -7,6 +7,7 @@ $(document).ready(function () {
         slidesPerView: 1.5,
         slidesPerGroup:1,
         spaceBetween: 10,
+        freeMode:true,
         pagination: {
             el: ".swiper-pagination-newest",
             clickable: true,
