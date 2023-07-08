@@ -402,7 +402,7 @@ header {
         background-color: transparent;
         border-radius: 100%;
         border: 5px solid white;
-        animation: coccoc-alo-circle-anim 4s infinite ease-in-out;
+        animation: coccoc-alo-circle-anim 3s infinite ease-in-out;
       }
 
     }
@@ -478,7 +478,10 @@ header {
     border-radius: 50%;
   }
 }
-.suggestion-list{
-  height: 100vh;
-  overflow: auto;
+@media (min-width: 1200px) {
+  .suggestion-list{
+    height: 100vh;
+    overflow: auto;
+  }
+
 }
