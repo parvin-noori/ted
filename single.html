@@ -3,8 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>single</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--        <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/figtree.css">
+    <link rel="stylesheet" href="assets/css/iransansX.css">
+    <link rel="stylesheet" href="style.css">
+    <!--        <link rel="stylesheet" href="rtl.css">-->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
+<!--header-->
+<header>
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-lg-start justify-content-between">
 
+            <!--hamburger menu-->
+            <div class="col-auto d-lg-none d-inline-block">
+                <button class="btn hamburger-menu-btn fs-4" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                    <i class="fa-light fa-bars"></i>
+                </button>
+            </div>
+
+            <!--logo-->
+            <div class="col-auto">
+                <a href="#" class="d-flex align-items-center text-nowrap">
+                    <img src="assets/imgs/logo.svg" alt="logo" class="me-2 logo">
+                    <span class="text-muted d-lg-inline-block d-none">Ideas worth spreading</span>
+                </a>
+            </div>
+
+            <!--main menu-->
+            <div class="col-auto ms-auto d-lg-flex align-items-center d-none">
+                <ul class="nav d-grid-row gap-4">
+                    <li class="text-uppercase"><a href="#">watch</a></li>
+                    <li class="text-uppercase"><a href="#">discover</a></li>
+                    <li class="text-uppercase"><a href="#">attend</a></li>
+                    <li class="text-uppercase"><a href="#">participate</a></li>
+                    <li class="text-uppercase"><a href="#">about</a></li>
+                    <li class="text-uppercase"><a href="#">sign in</a></li>
+                </ul>
+
+                <a href="#" class="membershipBtn text-uppercase redButton">membership</a>
+            </div>
+
+            <!--  search button-->
+            <div class="col-auto d-lg-inline-block d-none">
+                <button class="btn searchBtn fs-4">
+                    <i class="fa-light fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <!--hamburger menu-->
+            <div class="col-auto d-lg-none d-inline-block">
+                <button class="btn hamburger-menu-btn text-uppercase">
+                    sign in
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+</header>
 </body>
 </html>
