@@ -291,5 +291,9 @@ header {
   .suggestion-list {
     height: 100vh;
     overflow: auto; } }
+.content-options {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto; }
 
 /*# sourceMappingURL=style.css.map */

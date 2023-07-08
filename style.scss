@@ -485,3 +485,8 @@ header {
   }
 
 }
+.content-options{
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow-x: auto;
+}
