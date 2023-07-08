@@ -17,4 +17,8 @@ body {
 .swiper-button-next, .swiper-button-prev, .fa-chevron-right {
   transform: scaleX(-1); }
 
+.mainContent .desc-list li:not(:last-child) a:after {
+  left: -0.5rem;
+  right: initial; }
+
 /*# sourceMappingURL=rtl.css.map */
