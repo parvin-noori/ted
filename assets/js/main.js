@@ -50,14 +50,13 @@ $(document).ready(function () {
 
         });
 
-        // video2.on("play", function () {
-        //     overlay.addClass('d-none');
-        //     overlay.removeClass('d-flex')
-        // });
-        // video2.on("pause", function () {
-        //     overlay.addClass('d-flex');
-        //     overlay.removeClass('d-none')
-        // })
     }
+    
+    //show/more less button
+    $('.show-more-btn').click(function (e) {
+        $('.desc-list').slideToggle();
+        $('.mainContent .desc').toggleClass('limit')
+
+    })
 });
 

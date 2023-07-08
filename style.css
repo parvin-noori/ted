@@ -281,6 +281,14 @@ header {
   content: ',';
   position: absolute;
   right: -.5rem; }
+.mainContent .desc.limit {
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: all 0.3s; }
 .mainContent .speaker-img {
   width: 3.5rem;
   height: 3.5rem;
