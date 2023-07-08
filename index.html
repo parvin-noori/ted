@@ -962,12 +962,13 @@
 </section>
 
 <!--footer-->
-<footer class="footer">
+<footer class="footer small ">
     <div class="container">
-        <div class="footer-top py-5">
+        <div class="footer-top py-4 border-bottom">
             <div class="row">
                 <div class="col-12 mb-4">
-                    <svg viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 lg:mr-3 footer-logo">
+                    <svg viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                         class="h-6 lg:mr-3 footer-logo">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                               d="M21.419 0v6.151h-6.763V24h-7.44V6.151H.453V0H21.42zm21.484 0v6.141l-12.918.01v2.946h12.918v5.73l-12.918-.009v3.03h12.918V24H22.546V0h20.357zm13.446 0c8.048 0 10.889 5.916 10.889 11.966C67.237 19.328 63.314 24 54.894 24H44.142V0h12.207zm-2.4 6.151H51.58V17.85h2.908c4.633 0 5.31-3.731 5.31-5.983 0-1.513-.474-5.715-5.85-5.715z"
                               fill="#EC1015"></path>
@@ -990,7 +991,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xxl-2 col-md-3">
+                <div class="d-lg-none border-bottom d-block py-4"></div>
+                <div class="col-xxl-2 col-md-3 pt-lg-0 pt-4">
                     <div class="footer-menu">
                         <span class="fw-bold text-capitalize mb-4 d-block">our community</span>
                         <ul class="nav flex-column gap-3">
@@ -1002,16 +1004,80 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xxl-4 col-md-5 offset-md-1">
+                <div class="d-lg-none border-bottom d-block py-4"></div>
+                <div class="col-xxl-4 col-md-6 pt-lg-0 pt-4">
                     <span class="fw-bold text-capitalize mb-4 d-block">Newsletters</span>
-                    <span class="d-flex align-items-center mb-4">
-                        <i class="fa-light fa-envelope me-3"></i>
+                    <span class="d-flex align-items-center mb-4 fw-bold">
+                        <i class="fa-light fa-envelope me-2 fs-5 text-gray"></i>
                         Get the latest talks
                     </span>
-                    <div class="input-group mb-3 border-white border overflow-hidden rounded-2">
-                        <input type="text" class="form-control border-0 rounded-0" placeholder="what's your email?" aria-label="what's your email?" aria-describedby="button-subscribe">
-                        <button class="btn text-white fw-bold" type="button" id="button-subscribe">subscribe</button>
+                    <p class="text-capitalize  mb-3">Get a daily email featuring the latest talk, plus a quick mix
+                        of trending content.</p>
+                    <form class="input-group mb-3 border-white border overflow-hidden rounded-2">
+                        <input type="text" class="form-control border-0 rounded-0" placeholder="what's your email?"
+                               aria-label="what's your email?" aria-describedby="button-subscribe">
+                        <button class="btn text-white fw-bold" type="submit" id="button-subscribe">subscribe</button>
+                    </form>
+                    <span class=" mb-5 d-block text-gray">By subscribing, you understand and agree that we will store, process and manage your personal information according to our <a
+                            href="#" class="text-decoration-underline">Privacy Policy</a></span>
+                    <a href="#" class="d-flex align-items-center mb-4 fw-bold">
+                        <i class="fa-light fa-envelope me-2 fs-5 text-gray"></i>
+                        Get personalized recommendations
+                        <i class="fa-regular fa-chevron-right  ms-2"></i>
+                    </a>
+                    <span class="text-capitalize">Tell us what you’re interested in and we’ll send you talks tailored just for you.</span>
+                </div>
+                <div class="d-xxl-none border-bottom d-block py-4"></div>
+                <div class="col-xxl-3 offset-xxl-1 pt-xxl-0 pt-5">
+                    <div class="row d-flex flex-xxl-column flex-row">
+                        <div class="col-xxl-12 col-xl-6 d-flex flex-column">
+                            <a href="#" class="d-flex align-items-center mb-4 fw-bold text-capitalize">
+                                Become a TED Member
+                                <i class="fa-regular fa-chevron-right  ms-2"></i>
+                            </a>
+                            <p class="mb-lg-5">TED Members make our mission possible by supporting global access to
+                                inspiring
+                                ideas. Plus, they
+                                get to attend exclusive events. Help support a better future – and a brighter you.</p>
+                        </div>
+                        <div class="d-lg-none border-bottom d-block py-4"></div>
+                        <div class="col-xxl-12 col-xl-6 d-flex flex-column pt-lg-0 pt-4">
+                            <span class="text-sm bold pt-1 fw-bold mb-3 d-block">Follow TED</span>
+                            <ul class="nav align-items-center justify-content-xxl-between fs-5 social-menu mb-lg-4 gap-4">
+                                <li><a href="#" class="bg-white text-black"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#" class="bg-white text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#" class="bg-white text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#" class="bg-white text-black"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#" class="bg-white text-black"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            </ul>
+                            <div class="d-lg-none border-bottom d-block py-4"></div>
+                            <span class="text-sm bold pt-1 fw-bold mb-4 d-block text-capitalize pt-lg-0 pt-4">Download the TED App</span>
+                            <ul class="nav align-items-center download-app-menu gap-2">
+                                <li><a href="#" class="d-block"><img src="assets/imgs/google-play.svg" alt=""></a></li>
+                                <li><a href="#" class="d-block"><img src="assets/imgs/google-play.svg" alt=""></a></li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom py-4 text-gray">
+            <div class="row">
+                <div class="col-xxl-8">
+                    <ul class="nav align-items-center">
+                        <li><a href="#">TED Talks Usage Policy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Advertising / Partnership</a></li>
+                        <li><a href="#">TED.com Terms of Use</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Preferences</a></li>
+                    </ul>
+                </div>
+                <div class="col-xxl-4">
+                    <p>© TED Conferences, LLC. All rights reserved.</p>
                 </div>
             </div>
         </div>
