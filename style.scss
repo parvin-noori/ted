@@ -384,8 +384,11 @@ header {
         border: 5px solid white;
         animation: coccoc-alo-circle-anim 4s infinite ease-in-out;
       }
-    }
 
+    }
+    .vjs-duration.vjs-time-control{
+      display: block;
+    }
     &:hover {
       .vjs-big-play-button {
         transform: translate(-50%, -50%) scale(1.1);

@@ -236,6 +236,8 @@ header {
         border-radius: 100%;
         border: 5px solid white;
         animation: coccoc-alo-circle-anim 4s infinite ease-in-out; }
+    .video-wrapper .video-js .vjs-duration.vjs-time-control {
+      display: block; }
     .video-wrapper .video-js:hover .vjs-big-play-button {
       transform: translate(-50%, -50%) scale(1.1); }
   .video-wrapper .vjs-poster img {
