@@ -198,4 +198,11 @@ header {
 .text-gray {
   color: #b5b5b5; }
 
+.red-btn {
+  background-color: #d91e18;
+  color: white; }
+
+.membershipBtn {
+  padding: 0.7rem; }
+
 /*# sourceMappingURL=style.css.map */
