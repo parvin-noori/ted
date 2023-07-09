@@ -304,4 +304,31 @@ header {
   white-space: nowrap;
   overflow-x: auto; }
 
+#shareModal ul a i {
+  color: #444;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: #eee; }
+  #shareModal ul a i.fa-facebook-f {
+    background-color: #425893;
+    color: white; }
+  #shareModal ul a i.fa-linkedin-in {
+    background-color: #2867B2;
+    color: white; }
+  #shareModal ul a i.fa-twitter {
+    background-color: #1DA1F2;
+    color: white; }
+  #shareModal ul a i.fa-twitter {
+    background-color: #1DA1F2;
+    color: white; }
+
+.form-control:focus {
+  box-shadow: none; }
+
 /*# sourceMappingURL=style.css.map */

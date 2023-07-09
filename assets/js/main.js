@@ -51,13 +51,28 @@ $(document).ready(function () {
         });
 
     }
-    
+
     //show/more less button
     $('.show-more-btn').click(function (e) {
         $('.desc-list').slideToggle();
         $('.mainContent .desc').toggleClass('limit');
         $(this).find('span').text() === 'show more' ? $(this).find('span').text('show less') : $(this).find('span').text('show more');
         $(this).find('i').toggleClass('fa-chevron-up fa-chevron-down');
+    })
+
+
+    //copy link pate
+    $('#pageLink').val(window.location.href);
+    $('#copyLink-button').click(function () {
+        // Get the text field
+        let copyText = document.getElementById("pageLink");
+
+        // Select the text field
+        copyText.select();
+
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value);
     })
 });
 
