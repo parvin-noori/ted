@@ -40,6 +40,9 @@ header {
 
 .item {
   transition: all 0.3s; }
+  .item .img-square {
+    width: 6rem;
+    height: 6rem; }
   .item .item-time {
     right: 1rem;
     color: white;
@@ -48,9 +51,9 @@ header {
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 2px;
     padding: 2px 4px; }
-  .item:not(.suggestion-item) .item-title {
+  .item.withBefore .item-title {
     font-size: 1.2rem; }
-  .item:not(.suggestion-item) .img-item:before {
+  .item.withBefore .img-item:before {
     content: '\f04b';
     font-family: "Font Awesome 6 Pro";
     position: absolute;
@@ -67,6 +70,13 @@ header {
     font-size: 1.5rem;
     display: flex;
     opacity: 0; }
+  .item.searchItem {
+    margin-bottom: 2rem; }
+    .item.searchItem .searchItemLink {
+      color: gray;
+      transition: all 0.3s; }
+      .item.searchItem .searchItemLink:hover {
+        color: black !important; }
   .item.suggestion-item {
     margin-bottom: 1rem;
     display: block;
