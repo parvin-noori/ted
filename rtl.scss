@@ -1,11 +1,11 @@
-body{
+body {
   direction: rtl;
   font-family: IranSansX;
 
 }
 
 .item {
-  .item-time{
+  .item-time {
     right: initial;
     left: 1rem;
   }
@@ -13,21 +13,31 @@ body{
 
 .swiper-button-next {
   left: -2rem;
-  right: initial!important;
+  right: initial !important;
 }
 
 .swiper-button-prev {
   right: -2rem;
-  left: initial!important;
+  left: initial !important;
 }
-.swiper-button-next,.swiper-button-prev,.fa-chevron-right{
+
+.swiper-button-next, .swiper-button-prev, .fa-chevron-right {
   transform: scaleX(-1);
 }
+
 .mainContent {
   .desc-list {
-    li:not(:last-child) a:after{
+    li:not(:last-child) a:after {
       left: -0.5rem;
       right: initial;
     }
   }
+}
+
+header {
+  .search-form {
+    left: 0;
+    right: initial;
+  }
+
 }

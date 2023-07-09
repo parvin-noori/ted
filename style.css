@@ -30,7 +30,8 @@ header {
     width: 0;
     transition: all 0.3s;
     background-color: #eee;
-    padding: 0; }
+    padding: 0;
+    overflow: hidden; }
     header .search-form.extended-form {
       width: 40rem; }
   header .logo {
