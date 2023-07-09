@@ -58,7 +58,7 @@ $(document).ready(function () {
         $('.mainContent .desc').toggleClass('limit');
         $(this).find('span').text() === 'show more' ? $(this).find('span').text('show less') : $(this).find('span').text('show more');
         $(this).find('i').toggleClass('fa-chevron-up fa-chevron-down');
-    })
+    });
 
 
     //copy link pate
@@ -73,6 +73,32 @@ $(document).ready(function () {
 
         // Copy the text inside the text field
         navigator.clipboard.writeText(copyText.value);
+    });
+
+    //extend and reduce search form in header
+    $('.searchBtn').click(function () {
+        $('.search-form').addClass('extended-form');
+        $('.main-menu').addClass('opacity-0');
+        $('.searchInput').focus()
     })
+
+    function reduceSearchForm() {
+        $('.search-form').removeClass('extended-form');
+        $('.main-menu').removeClass('opacity-0');
+        $('.search-form')[0].reset();
+    };
+    $('#closeBtn').click(function () {
+        reduceSearchForm();
+    });
+
+
+    $(document).click(function (e) {
+        var container = $('.search-form');
+        var searchBtn = $('.searchBtn');
+
+        if (!container.is(e.target) && !searchBtn.is(e.target) && container.has(e.target).length === 0 && searchBtn.has(e.target).length === 0) {
+            reduceSearchForm()
+        }
+    });
 });
 

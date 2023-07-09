@@ -44,7 +44,7 @@
 
             <!--main menu-->
             <div class="col-auto ms-auto d-lg-flex align-items-center d-none">
-                <ul class="nav d-grid-row gap-4">
+                <ul class="nav d-grid-row gap-4 main-menu">
                     <li class="text-uppercase"><a href="#">watch</a></li>
                     <li class="text-uppercase"><a href="#">discover</a></li>
                     <li class="text-uppercase"><a href="#">attend</a></li>
@@ -58,10 +58,16 @@
 
             <!--  search button-->
             <div class="col-auto d-lg-inline-block d-none">
-                <button class="btn searchBtn fs-4 border-0">
+                <button class="btn searchBtn fs-4 border-0" type="button">
                     <i class="fa-light fa-magnifying-glass"></i>
                 </button>
             </div>
+            <form action="" class="search-form">
+                <div class="input-group h-100">
+                    <input type="text" class="form-control py-2 border-0 searchInput bg-transparent px-4" aria-describedby="closeBtn" placeholder="type to search"/>
+                    <button class="btn border-0" type="submit" id="closeBtn"><i class="fa-light fa-xmark"></i></button>
+                </div>
+            </form>
 
             <!--hamburger menu-->
             <div class="col-auto d-lg-none d-inline-block">
