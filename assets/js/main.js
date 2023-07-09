@@ -55,8 +55,9 @@ $(document).ready(function () {
     //show/more less button
     $('.show-more-btn').click(function (e) {
         $('.desc-list').slideToggle();
-        $('.mainContent .desc').toggleClass('limit')
-
+        $('.mainContent .desc').toggleClass('limit');
+        $(this).find('span').text() === 'show more' ? $(this).find('span').text('show less') : $(this).find('span').text('show more');
+        $(this).find('i').toggleClass('fa-chevron-up fa-chevron-down');
     })
 });
 
