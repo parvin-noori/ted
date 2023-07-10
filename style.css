@@ -8,10 +8,12 @@ html {
 body {
   font-family: Figtree;
   font-weight: 500;
-  margin-bottom: 5rem;
   font-size: 1rem;
   line-height: 1.5; }
 
+@media (max-width: 768px) {
+  body {
+    margin-bottom: 5rem; } }
 a {
   text-decoration: none;
   color: inherit; }
@@ -75,7 +77,8 @@ header {
     margin-bottom: 2rem; }
     .item.searchItem .searchItemLink {
       color: gray;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      word-wrap: break-word; }
       .item.searchItem .searchItemLink:hover {
         color: black !important; }
   .item.suggestion-item {
@@ -201,15 +204,14 @@ header {
 .playlist-item:hover {
   color: #444; }
 
-.footer {
-  background-color: black;
-  color: white; }
-  .footer .footer-logo {
-    height: 1.5rem; }
-    .footer .footer-logo path {
-      fill: white; }
-  .footer .footer-menu a:hover {
-    text-decoration: underline; }
+footer .footer-logo {
+  height: 1.5rem; }
+  footer .footer-logo path {
+    fill: white; }
+footer .footer-menu a:hover {
+  text-decoration: underline; }
+footer.footer {
+  border-top: 3px solid var(--red); }
 
 .social-menu a {
   width: 2.3rem;
@@ -223,16 +225,27 @@ header {
   height: 2.5rem; }
 
 @media (min-width: 768px) {
-  .footer-bottom ul li {
+  footer:not(.footer) .footer-bottom ul li {
     flex: 25%;
-    margin-bottom: 2rem; } }
+    margin-bottom: 2rem; }
+  footer .footer-bottom ul li a:hover {
+    text-decoration: underline; } }
+@media (max-width: 576px) {
+  .footer .footer-bottom ul li {
+    width: 100%; }
+    .footer .footer-bottom ul li a {
+      width: 100%;
+      border-bottom: 1px solid #444;
+      padding: 1rem;
+      display: block;
+      text-align: center;
+      font-weight: bold; }
+      .footer .footer-bottom ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.1); } }
 @media (max-width: 768px) {
-  .footer-bottom ul li {
+  footer:not(.footer) .footer-bottom ul li {
     flex: 50%;
     margin-bottom: 2rem; } }
-.footer-bottom ul li a:hover {
-  text-decoration: underline; }
-
 .text-gray {
   color: #b5b5b5; }
 
