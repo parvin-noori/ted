@@ -100,5 +100,19 @@ $(document).ready(function () {
             reduceSearchForm()
         }
     });
+
+    // back from search list to main menu
+    let responsiveSearchFilterList = $('.responsiveSearchFilterList');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    $('.hideSearchListBtn').click(function () {
+        responsiveSearchFilterList.addClass('hideSearchList')
+    })
+
+    mobileMenu.addEventListener('hidden.bs.offcanvas', event => {
+        if (responsiveSearchFilterList.hasClass('hideSearchList')) {
+            responsiveSearchFilterList.removeClass('hideSearchList')
+        }
+    })
 });
 
