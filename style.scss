@@ -1,6 +1,7 @@
 
 :root {
   --primary-color: rgb(6, 9, 95);
+  --red: rgb(217, 30, 24);
 }
 
 html {
@@ -400,7 +401,7 @@ header {
 }
 
 .red-btn {
-  background-color: rgb(217, 30, 24);
+  background-color: var(--red);
   color: white;
 }
 
@@ -583,4 +584,19 @@ header {
 
 .form-control:focus {
   box-shadow: none;
+}
+
+.searchFilterList {
+  li {
+
+    border-bottom: 1px dotted black;
+    padding: 0.7rem 0;
+
+    a {
+
+      &.active {
+        color: var(--red);
+      }
+    }
+  }
 }

@@ -1,5 +1,6 @@
 :root {
-  --primary-color: rgb(6, 9, 95); }
+  --primary-color: rgb(6, 9, 95);
+  --red: rgb(217, 30, 24); }
 
 html {
   font-size: 15px; }
@@ -236,7 +237,7 @@ header {
   color: #b5b5b5; }
 
 .red-btn {
-  background-color: #d91e18;
+  background-color: var(--red);
   color: white; }
 
 .membershipBtn {
@@ -355,5 +356,11 @@ header {
 
 .form-control:focus {
   box-shadow: none; }
+
+.searchFilterList li {
+  border-bottom: 1px dotted black;
+  padding: 0.7rem 0; }
+  .searchFilterList li a.active {
+    color: var(--red); }
 
 /*# sourceMappingURL=style.css.map */
