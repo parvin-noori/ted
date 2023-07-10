@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>speaker</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!--    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css">-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/figtree.css">
+    <link rel="stylesheet" href="assets/css/iransansX.css">
+    <link rel="stylesheet" href="style.css">
+    <!--    <link rel="stylesheet" href="rtl.css">-->
+    <script src="assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+<!--header-->
+<header>
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-lg-start justify-content-lg-start justify-content-between">
+
+            <!--hamburger menu-->
+            <div class="col-auto d-lg-none d-inline-block">
+                <button class="btn hamburger-menu-btn fs-4 border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                    <i class="fa-light fa-bars"></i>
+                </button>
+            </div>
+
+            <!--logo-->
+            <div class="col-auto">
+                <a href="#" class="d-flex align-items-center text-nowrap">
+                    <img src="assets/imgs/logo.svg" alt="logo" class="me-2 logo">
+                    <span class="text-muted d-lg-inline-block d-none">Ideas worth spreading</span>
+                </a>
+            </div>
+
+            <!--main menu-->
+            <div class="col-auto ms-auto d-lg-flex align-items-center d-none">
+                <ul class="nav d-grid-row gap-4 main-menu">
+                    <li class="text-uppercase"><a href="#">watch</a></li>
+                    <li class="text-uppercase"><a href="#">discover</a></li>
+                    <li class="text-uppercase"><a href="#">attend</a></li>
+                    <li class="text-uppercase"><a href="#">participate</a></li>
+                    <li class="text-uppercase"><a href="#">about</a></li>
+                    <li class="text-uppercase"><a href="#">sign in</a></li>
+                </ul>
+
+                <a href="#" class="membershipBtn text-uppercase redButton ms-4 red-btn rounded-1 fw-bold">membership</a>
+            </div>
+
+            <!--  search button-->
+            <div class="col-auto d-lg-inline-block d-none">
+                <button class="btn searchBtn fs-4 border-0" type="button">
+                    <i class="fa-light fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- search form-->
+            <form action="" class="search-form">
+                <div class="input-group h-100">
+                    <input type="text" class="form-control py-2 border-0 searchInput bg-transparent px-4"
+                           aria-describedby="closeBtn" placeholder="type to search"/>
+                    <button class="btn border-0" type="submit" id="closeBtn"><i class="fa-light fa-xmark"></i></button>
+                </div>
+            </form>
+
+            <!--sign in-->
+            <div class="col-auto d-lg-none d-inline-block">
+                <button class="btn hamburger-menu-btn text-uppercase border-0">
+                    sign in
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+</header>
+
+<!--speakers-main-->
+<div class="speakers-main">
+    <div class="profile-header py-lg-5 py-3 bg-dark text-white">
+        <div class="container">
+            <div class="row flex-lg-row flex-column">
+                <div class="col-xl-2 col-lg-3 col-sm-4 col-6 d-flex justify-content-lg-end mb-lg-0 mb-3"><img
+                        src="assets/imgs/7ad915aed738551ab8798322660b80b3189bbeb9_254x191.jpg" alt=""
+                        class="w-100 object-fit-cover">
+                </div>
+                <div class="col-lg-8">
+                    <div class="profile-header__details d-flex flex-column">
+                        <div class="profile-header__flairs d-flex flex-column order-lg-1 order-2">
+                            <ul class="nav mb-4 gap-1">
+                                <li><a href="#" class="text-capitalize">TED speakers</a></li>
+                                <li><a href="#" class="text-capitalize">TED attendee</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex flex-column order-lg-2 order-1">
+                            <h2 class="profile-header__name text-capitalize display-5 fw-bold">Emily Esfahani Smith</h2>
+                            <span class=" profile-header__summary">Journalist, author</span>
+                        </div>
+                        <ul class="nav profile-header__links gap-3 mt-lg-5 order-3">
+                            <li><a href="" class="d-flex align-items-center gap-1 text-decoration-underline"><i
+                                    class="fa-regular fa-link"></i>emilyesfahanismith.com</a></li>
+                            <li><a href="" class="d-flex align-items-center gap-1 text-decoration-underline"><i
+                                    class="fa-brands fa-twitter"></i>@EmEsfahaniSmith</a></li>
+                            <li><a href="" class="d-flex align-items-center gap-1 text-decoration-underline"><i
+                                    class="fa-regular fa-link"></i>The Power of Meaning</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-body my-5">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-3 col-12 d-lg-block d-none">
+                    <ul class="nav searchFilterList flex-column">
+                        <li class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-capitalize active">TEDspeakers</a>
+                        </li>
+                        <li class="d-flex align-items-center justify-content-between">
+                            <a href="#" class="text-capitalize">personal profile </a></li>
+
+
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-12 d-flex align-items-center">
+                    <div class="col-xl-8 col-12">
+                        <div class="profile-intro fs-4 fst-italic border-bottom pb-5">
+                            In her book "The Power of Meaning," Emily Esfahani Smith rounds up the latest research — and
+                            the stories of fascinating people she interviewed — to argue that the search for meaning is
+                            far more fulfilling than the pursuit of personal happiness.
+                        </div>
+                        <div class="section--minor d-flex flex-column py-5 border-bottom">
+                            <h3 class="text-capitalize fw-bold fs-5 mb-3">Why you should listen</h3>
+                            <p class="mb-3">
+                                Emily Esfahani Smith is a writer in Washington, DC. In her writing, she draws on
+                                psychology, philosophy, and literature to write about the human experience -- why we are
+                                the way we are and how we can find grace and meaning in a world that is full of
+                                suffering. Her book The Power of Meaning, an international bestseller, was published by
+                                Crown and has been translated into 16 different languages.
+                            </p>
+                            <p class="mb-3">
+
+
+                                The former managing editor of The New Criterion, Smith's articles and essays have
+                                appeared in the New York Times, Wall Street Journal, The Atlantic, and other
+                                publications.
+                            </p>
+                            <p class="mb-3">
+                                Smith studied philosophy at Dartmouth College. She received her master's degree in
+                                positive psychology from the University of Pennsylvania and is currently a doctoral
+                                student in clinical psychology at Catholic University. She was born in Zurich,
+                                Switzerland.
+                            </p>
+                        </div>
+                        <div class="section py-4 border-bottom d-flex flex-column">
+                            <h2 class="fs-3 mb-3">Emily Esfahani Smith’s TED talk</h2>
+                            <div class="col-lg-6 col-12 d-flex flex-lg-column flex-row">
+                                <a href="#" class="mb-3"> <img src="assets/imgs/EmilyEsfahaniSmith_2017-embed.jpg"
+                                                               alt="" class="w-100"></a>
+                                <div class="d-flex flex-column">
+                                    <span class="speaker-name text-capitalize fst-italic text-muted">Emily Esfahani Smith</span>
+                                    <h4 class="title fw-bold mb-1"><a href="#">There's more to life than being happy</a>
+                                    </h4>
+                                    <span class="meta__item small text-muted"><span class="fw-bold">Posted</span> sep 2017
+                                </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section py-4  d-flex flex-column">
+                            <h2 class="fs-3 mb-3">More news and ideas from Emily Esfahani Smith</h2>
+                            <div class="col-lg-6 col-12">
+                                <span class="text-capitalize fst-italic text-muted">Live from TED2017</span>
+                                <h4 class="title fw-bold mb-1"><a href="#">It’s personal: The talks of Session 9 of
+                                    TED2017</a></h4>
+                                <span class="meta__item small text-muted mb-2 d-block"><span class="fw-bold">Posted</span>April 28, 2017</span>
+                                <p class="mb-3">For the ninth session of TED2017, hosted by TED’s Editorial Director Helen Walters
+                                    and Curation Director Kelly Stoetzel, we look into ourselves with seven speakers who
+                                    take on subjects ranging from parenting to social interaction and heartbreak,
+                                    revealing nuggets of wisdom that just might help you lead a better, more fulfilled
+                                    life. The longest-running study […]</p>
+                                <a href="#" class="text-decoration-underline text-muted">Continue reading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer class="footer small fw-bold">
+    <div class="container">
+        <div class="footer-top py-4">
+            <div class="row justify-content-md-start justify-content-center">
+                <div class="col-lg-1 col-2 d-flex justify-content-center"><a href="#"><img src="assets/imgs/logo.svg"
+                                                                                           alt="" class="w-100"></a>
+                </div>
+                <div class="col-md-2 mt-md-0 mt-4 d-flex justify-content-xxl-center">
+                    <div class="footer-menu">
+                        <span class="fw-bold text-capitalize mb-md-4 mb-3 d-block">Programs & initiatives</span>
+                        <ul class="nav flex-column gap-1 text-muted">
+                            <li class="text-capitalize"><a href="#">TEDx</a></li>
+                            <li class="text-capitalize"><a href="#">TED Fellows</a></li>
+                            <li class="text-capitalize"><a href="#">TED Ed</a></li>
+                            <li class="text-capitalize"><a href="#">TED Translators</a></li>
+                            <li class="text-capitalize"><a href="#">TED Institute</a></li>
+                            <li class="text-capitalize"><a href="#">The Audacious Project</a></li>
+                            <li class="text-capitalize"><a href="#">TED@Work</a></li>
+                            <li class="text-capitalize"><a href="#">TED Courses</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 mt-md-0 mt-5 d-flex justify-content-xxl-center">
+                    <div class="footer-menu">
+                        <span class="fw-bold text-capitalize mb-md-4 mb-3 d-block">Ways to get TED</span>
+                        <ul class="nav flex-column gap-1 text-muted">
+                            <li class="text-capitalize"><a href="#">Podcasts</a></li>
+                            <li class="text-capitalize"><a href="#">More ways to get TED</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 mt-md-0 mt-5 d-flex justify-content-xxl-center">
+                    <div class="footer-menu">
+                        <span class="fw-bold text-capitalize mb-md-4 mb-3 d-block">Follow TED</span>
+                        <ul class="nav flex-column gap-1 text-muted">
+                            <li class="text-capitalize"><a href="#">Facebook</a></li>
+                            <li class="text-capitalize"><a href="#">Twitter</a></li>
+                            <li class="text-capitalize"><a href="#">Instagram</a></li>
+                            <li class="text-capitalize"><a href="#">YouTube</a></li>
+                            <li class="text-capitalize"><a href="#">LinkedIn</a></li>
+                            <li class="text-capitalize"><a href="#">TED Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 mt-md-0 mt-5 d-flex justify-content-xxl-center">
+                    <div class="footer-menu">
+                        <span class="fw-bold text-capitalize mb-md-4 mb-3 d-block">our community</span>
+                        <ul class="nav flex-column gap-1 text-muted">
+                            <li class="text-capitalize"><a href="#">TED Speakers</a></li>
+                            <li class="text-capitalize"><a href="#">TED Fellows</a></li>
+                            <li class="text-capitalize"><a href="#">TED Translators</a></li>
+                            <li class="text-capitalize"><a href="#">TEDx Organizers</a></li>
+                            <li class="text-capitalize"><a href="#">TED Community</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-md-auto mt-xxl-0 mt-5 d-flex">
+                    <div class="border-start me-5 d-xxl-block d-none"></div>
+                    <div class="d-flex flex-column align-items-start">
+                        <span class="fw-bold text-capitalize mb-lg-4 mb-3">Want personalized recommendations?</span>
+                        <span class="fw-normal mb-lg-4 mb-3">Join <span class="fw-bold">TED Recommends</span> and get the perfect ideas selected just for you.</span>
+                        <button class="btn text-capitalize fw-bold bg-dark text-white rounded-1 py-3 px-4">get started
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-black">
+        <div class="container overflow-hidden">
+            <div class="row">
+                <div class="col-12 pt-sm-2 pb-2 px-0">
+                    <div class="footer-bottom py-sm-3 text-gray">
+                        <div class="row">
+                            <div class="col-xxl-8">
+                                <ul class="nav align-items-center gap-sm-3 flex-sm-row flex-column">
+                                    <li><a href="#">TED Talks Usage Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Advertising / Partnership</a></li>
+                                    <li><a href="#">TED.com Terms of Use</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Privacy Preferences</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xxl-4 d-flex justify-content-xxl-end justify-content-sm-start justify-content-center mt-xxl-0 mt-3">
+                                <p>© TED Conferences, LLC. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<!--navigation bar-->
+<div class="navigation-bar position-fixed bottom-0 d-md-none d-block">
+    <ul class="nav">
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i
+                class="fa-regular fa-house mb-2 fs-5"></i><span class="small">home</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i
+                class="fa-light fa-magnifying-glass mb-2 fs-5"></i><span class="small">browse</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i
+                class="fa-light fa-bookmark mb-2 fs-5"></i><span class="small">my library</span></a></li>
+        <li><a href="#" class="d-flex flex-column text-capitalize align-items-center"><i
+                class="fa-light fa-headphones mb-2 fs-5"></i><span class="small">podcasts</span></a></li>
+    </ul>
+</div>
+
+<!--mobile menu-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-5">
+        <form action="" class="responsive-searchForm mb-4">
+            <div class="input-group  border rounded-2 ">
+                <button class="btn  border-0" type="submit"><i class="fa-light fa-magnifying-glass"></i></button>
+                <input type="text" class="form-control py-2 border-0" placeholder="search Talks, events,authors"/>
+            </div>
+        </form>
+        <div class="d-flex flex-column border-bottom pb-4 mb-4">
+            <span class="title small text-muted text-uppercase mb-3">watch</span>
+            <ul class="nav flex-column gap-3 fw-bold">
+                <li><a href="" class="text-capitalize">TED talks</a></li>
+                <li><a href="" class="text-capitalize">TED recommends</a></li>
+                <li><a href="" class="text-capitalize">playlist</a></li>
+                <li><a href="" class="text-capitalize">TED series</a></li>
+                <li><a href="" class="text-capitalize">TED_Ed videos</a></li>
+                <li><a href="" class="text-capitalize">TEDx Talks</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column border-bottom pb-4 mb-4">
+            <span class="title small text-muted text-uppercase mb-3">discover</span>
+            <ul class="nav flex-column gap-3 fw-bold">
+                <li><a href="" class="text-capitalize">topics</a></li>
+                <li><a href="" class="text-capitalize">podcasts</a></li>
+                <li><a href="" class="text-capitalize">ideas blog</a></li>
+                <li><a href="" class="text-capitalize">newsletters</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column border-bottom pb-4 mb-4">
+            <span class="title small text-muted text-uppercase mb-3">ATTEND</span>
+            <ul class="nav flex-column gap-3 fw-bold">
+                <li><a href="" class="text-capitalize">Conferences</a></li>
+                <li><a href="" class="text-capitalize">TEDx Events</a></li>
+                <li><a href="" class="text-capitalize">TED on Screen</a></li>
+                <li><a href="" class="text-capitalize">TED Courses</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column border-bottom pb-4 mb-4">
+            <span class="title small text-muted text-uppercase mb-3">PARTICIPATE</span>
+            <ul class="nav flex-column gap-3 fw-bold">
+                <li><a href="" class="text-capitalize">Nominate</a></li>
+                <li><a href="" class="text-capitalize">Organize a local TEDx Event</a></li>
+                <li><a href="" class="text-capitalize">Translate</a></li>
+                <li><a href="" class="text-capitalize">TED Fellows</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column pb-4 mb-4">
+            <span class="title small text-muted text-uppercase mb-3">about</span>
+            <ul class="nav flex-column gap-3 fw-bold">
+                <li><a href="" class="text-capitalize">Our Organization</a></li>
+                <li><a href="" class="text-capitalize">Conferences</a></li>
+                <li><a href="" class="text-capitalize">Programs & Initiatives</a></li>
+                <li><a href="" class="text-capitalize">Partner with TED</a></li>
+                <li><a href="" class="text-capitalize">TED Blog</a></li>
+            </ul>
+        </div>
+        <a href="#" class="membershipBtn text-uppercase redButton w-100 red-btn rounded-1 fw-bold d-block text-center">membership</a>
+    </div>
+</div>
+</body>
+</html>

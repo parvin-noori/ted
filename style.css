@@ -189,6 +189,9 @@ header {
   .swiper {
     overflow: visible; } }
 @media (min-width: 768px) {
+  .speakers-main .profile-header img {
+    border: 15px solid black; }
+
   .recommendation-content {
     position: absolute;
     top: 50%;
@@ -390,5 +393,11 @@ footer.footer {
     padding: .8rem; }
   .responsiveSearchFilterList.hideSearchList {
     transform: translateX(-100%); }
+
+.speakers-main .profile-header .profile-header__flairs a {
+  background-color: var(--red);
+  color: white;
+  font-size: small;
+  padding: .2rem .5rem; }
 
 /*# sourceMappingURL=style.css.map */
