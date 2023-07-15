@@ -259,6 +259,32 @@ footer.footer {
 .membershipBtn {
   padding: 0.7rem; }
 
+.largeVideoWrapper .vjs-big-play-button {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  transition: all 0.3s; }
+  .largeVideoWrapper .vjs-big-play-button:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 5px solid white;
+    animation: coccoc-alo-circle-anim 3s infinite ease-in-out; }
+.largeVideoWrapper .vjs-duration.vjs-time-control {
+  display: block; }
+.largeVideoWrapper:hover .vjs-big-play-button {
+  transform: translate(-50%, -50%) scale(1.1); }
+
 .video-wrapper {
   position: relative;
   padding-bottom: 50%; }
@@ -269,31 +295,6 @@ footer.footer {
     bottom: 0;
     top: 0;
     height: 100%; }
-    .video-wrapper .video-js .vjs-big-play-button {
-      transform: translate(-50%, -50%);
-      top: 50%;
-      left: 50%;
-      width: 5rem;
-      height: 5rem;
-      border-radius: 50%;
-      background-color: white;
-      position: relative;
-      transition: all 0.3s; }
-      .video-wrapper .video-js .vjs-big-play-button:before {
-        content: '';
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-        background-color: transparent;
-        border-radius: 100%;
-        border: 5px solid white;
-        animation: coccoc-alo-circle-anim 3s infinite ease-in-out; }
-    .video-wrapper .video-js .vjs-duration.vjs-time-control {
-      display: block; }
-    .video-wrapper .video-js:hover .vjs-big-play-button {
-      transform: translate(-50%, -50%) scale(1.1); }
   .video-wrapper .vjs-poster img {
     width: 100%;
     height: 100%;
@@ -399,5 +400,26 @@ footer.footer {
   color: white;
   font-size: small;
   padding: .2rem .5rem; }
+
+.thumb-video {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  transition: all 0.3s; }
+  .thumb-video h3 {
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+  .thumb-video.hide {
+    transform: translateY(100%);
+    display: none; }
+  .thumb-video img {
+    height: 5rem; }
 
 /*# sourceMappingURL=style.css.map */

@@ -114,5 +114,18 @@ $(document).ready(function () {
             responsiveSearchFilterList.removeClass('hideSearchList')
         }
     })
+
+    //thumb video position
+    let thumbVideo=$('.thumb-video');
+    let navigationBar=$('.navigation-bar');
+    let navigationBarHeight=navigationBar.height();
+    thumbVideo.css({"bottom":navigationBarHeight})
+    
+    
+    //close thumb video
+    $('.close-thumb-video').click(function (e) {
+        e.preventDefault();
+        $('.thumb-video').addClass('hide')
+    })
 });
 
