@@ -718,12 +718,35 @@ footer {
 
 @media (max-width: 768px) {
   footer{
+
+
     .footer-menu{
       ul{
         padding-right: 1rem;
         max-height: 0;
         overflow: hidden;
         transition: all 0.3s;
+        &.active{
+        //  height: auto;
+          margin-bottom: 1rem;
+        }
+      }
+      .accordion-button{
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:after{
+          content: '\f078';
+          font-family: "Font Awesome 6 Pro";
+          font-size: small;
+        }
+        &.active{
+          &:after{
+            content: '\f077';
+          }
+        }
       }
     }
   }

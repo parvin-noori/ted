@@ -428,6 +428,20 @@ footer.footer {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s; }
+    footer .footer-menu ul.active {
+      margin-bottom: 1rem; }
+  footer .footer-menu .accordion-button {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    footer .footer-menu .accordion-button:after {
+      content: '\f078';
+      font-family: "Font Awesome 6 Pro";
+      font-size: small; }
+    footer .footer-menu .accordion-button.active:after {
+      content: '\f077'; }
 
   .flex-auto-0 {
     flex: 1 1 0%; } }

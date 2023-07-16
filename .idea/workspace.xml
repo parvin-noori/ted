@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="139">
+              <caret line="989" column="61" lean-forward="true" selection-start-line="989" selection-start-column="61" selection-end-line="989" selection-end-column="61" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../digiato/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="413" column="27" selection-start-line="413" selection-start-column="8" selection-end-line="413" selection-end-column="27" />
+            <state relative-caret-position="370">
+              <caret line="427" column="7" selection-start-line="407" selection-end-line="427" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -76,17 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="131" column="36" lean-forward="true" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+            <state relative-caret-position="401">
+              <caret line="140" column="44" lean-forward="true" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="714" column="17" lean-forward="true" selection-start-line="714" selection-start-column="17" selection-end-line="714" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="723" column="18" selection-start-line="723" selection-start-column="18" selection-end-line="723" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -139,8 +139,8 @@
       <find>The urgent risks of runaway AI -- and what to do about them</find>
       <find>video-w</find>
       <find>fw-bold text-capitalize mb-4 d-block</find>
-      <find>d-lg-none border-bottom d-block py-4</find>
       <find>accordtionLinksItem</find>
+      <find>d-lg-none border-bottom d-block py-4</find>
     </findStrings>
     <replaceStrings>
       <replace>mobileMenu</replace>
@@ -164,9 +164,10 @@
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/speakers.html" />
         <option value="$PROJECT_DIR$/single.html" />
-        <option value="$PROJECT_DIR$/style.scss" />
-        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/../digiato/assets/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
@@ -232,12 +233,12 @@
       <workItem from="1688902760423" duration="17627000" />
       <workItem from="1689054829580" duration="53000" />
       <workItem from="1689414404492" duration="6077000" />
-      <workItem from="1689504739102" duration="3001000" />
+      <workItem from="1689504739102" duration="4484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88557000" />
+    <option name="totallyTimeSpent" value="90040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -445,31 +446,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="714" column="17" lean-forward="true" selection-start-line="714" selection-start-column="17" selection-end-line="714" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="131" column="36" lean-forward="true" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../digiato/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="413" column="27" selection-start-line="413" selection-start-column="8" selection-end-line="413" selection-end-column="27" />
+        <state relative-caret-position="370">
+          <caret line="427" column="7" selection-start-line="407" selection-end-line="427" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="139">
+          <caret line="989" column="61" lean-forward="true" selection-start-line="989" selection-start-column="61" selection-end-line="989" selection-end-column="61" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -504,6 +491,20 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="140" column="44" lean-forward="true" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="723" column="18" selection-start-line="723" selection-start-column="18" selection-end-line="723" selection-end-column="18" />
         </state>
       </provider>
     </entry>

@@ -137,13 +137,32 @@ $(document).ready(function () {
             acc[i].addEventListener("click", function () {
                 this.classList.toggle("active");
                 var panel = this.nextElementSibling;
+                panel.classList.toggle('active')
                 if (panel.style.maxHeight) {
                     panel.style.maxHeight = null;
                 } else {
                     panel.style.maxHeight = panel.scrollHeight + "px";
+                    console.log(panel)
                 }
             });
         }
     }
+
+
+    //run stickyBody function in breakpoint
+    var width = $("body").width();
+    if (width < 768) {
+        accordtionLinksItem()
+    }
+    $(window).on('resize', function () {
+
+        // breakpoints
+        let $medium_down = window.matchMedia("(max-width: 768px)");
+
+        if ($medium_down.matches) {
+            accordtionLinksItem()
+        }
+
+    });
 });
 
