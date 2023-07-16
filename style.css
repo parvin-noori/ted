@@ -422,4 +422,14 @@ footer.footer {
   .thumb-video img {
     height: 5rem; }
 
+@media (max-width: 768px) {
+  footer .footer-menu ul {
+    padding-right: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s; }
+
+  .flex-auto-0 {
+    flex: 1 1 0%; } }
+
 /*# sourceMappingURL=style.css.map */
