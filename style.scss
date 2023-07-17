@@ -707,50 +707,103 @@ footer {
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  &.hide{
+
+  &.hide {
     transform: translateY(100%);
     display: none;
   }
-  img{
+
+  img {
     height: 5rem;
   }
 }
 
 @media (max-width: 768px) {
-  footer{
+  footer {
 
 
-    .footer-menu{
-      ul{
+    .footer-menu {
+      ul {
         padding-right: 1rem;
         max-height: 0;
         overflow: hidden;
         transition: all 0.3s;
-        &.active{
-        //  height: auto;
+
+        &.active {
+          //  height: auto;
           margin-bottom: 1rem;
         }
       }
-      .accordion-button{
+
+      .accordion-button {
         cursor: pointer;
         position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        &:after{
+
+        &:after {
           content: '\f078';
           font-family: "Font Awesome 6 Pro";
           font-size: small;
         }
-        &.active{
-          &:after{
+
+        &.active {
+          &:after {
             content: '\f077';
           }
         }
       }
     }
   }
-  .flex-auto-0{
+  .flex-auto-0 {
     flex: 1 1 0%;
+  }
+}
+
+#offcanvasSingin {
+  .nav-pills {
+    &#pills-tab {
+
+      border-bottom: 1px solid #ddd;
+
+      .nav-link {
+        font-weight: bold;
+
+        &.active {
+          border-bottom: 2px solid var(--red);
+        }
+      }
+    }
+
+    .nav-link {
+      background-color: transparent !important;
+      color: inherit;
+      border-radius: 0;
+
+    }
+
+    &#pills-myProfile {
+      button{
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        align-items: center;
+        display: flex;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 768px) {
+  #pills-profile-tabContent {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: red;
+    color: white;
+    transform: translateX(100%);
   }
 }

@@ -75,7 +75,8 @@
 
             <!--sing in button-->
             <div class="col-auto  d-lg-none d-flex justify-content-end flex-auto-0 ">
-                <button class="btn hamburger-menu-btn text-uppercase border-0">
+                <button class="btn hamburger-menu-btn text-uppercase border-0" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasSingin" aria-controls="offcanvasSingin">
                     sign in
                 </button>
             </div>
@@ -1110,12 +1111,14 @@
                     <h3 class="thumbVideo-title">How to unleash your inner maximalist through costume</h3>
                 </div>
                 <div class="col-1">
-                    <button type="button" class="btn close-thumb-video fs-2 fw-bold border-0"><i class="fa-light fa-xmark"></i></button>
+                    <button type="button" class="btn close-thumb-video fs-2 fw-bold border-0"><i
+                            class="fa-light fa-xmark"></i></button>
                 </div>
             </div>
         </div>
     </a>
 </section>
+
 
 <!--navigation bar-->
 <div class="navigation-bar position-fixed bottom-0 d-md-none d-block">
@@ -1192,6 +1195,52 @@
             </ul>
         </div>
         <a href="#" class="membershipBtn text-uppercase redButton w-100 red-btn rounded-1 fw-bold d-block text-center">membership</a>
+    </div>
+</div>
+
+<!--responsive sign in-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasSingin" aria-labelledby="offcanvasSinginLabel">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close me-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body px-0">
+        <div class="d-flex align-items-center mb-4 px-3">
+            <i class="fa-light fa-circle-user me-2 text-muted fs-1"></i>
+            <span class="text-capitalize fw-bold fs-5">my profile</span>
+        </div>
+
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active text-capitalize" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">my profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link text-capitalize" id="pills-setting-tab" data-bs-toggle="pill" data-bs-target="#pills-setting" type="button" role="tab" aria-controls="pills-setting" aria-selected="false">setting</button>
+            </li>
+
+        </ul>
+        <div class="tab-content " id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <ul class="nav flex-column nav-pills mb-3" id="pills-myProfile" role="tablist">
+
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active text-capitalize" id="pills-library-tab" data-bs-toggle="pill" data-bs-target="#pills-library" type="button" role="tab" aria-controls="pills-library" aria-selected="true"><i class="fa-light fa-bookmark me-3"></i>my library</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-capitalize" id="pills-recommended-tab" data-bs-toggle="pill" data-bs-target="#pills-recommended" type="button" role="tab" aria-controls="pills-recommended" aria-selected="false"><i class="fa-sharp fa-light fa-message-heart"></i>recommended for you</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-capitalize" id="pills-history-tab" data-bs-toggle="pill" data-bs-target="#pills-history" type="button" role="tab" aria-controls="pills-history" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-profile-tabContent">
+                    <div class="tab-pane fade show active" id="pills-library" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
+                    <div class="tab-pane fade" id="pills-recommended" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                    <div class="tab-pane fade" id="pills-history" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-setting" role="tabpanel" aria-labelledby="pills-setting-tab" tabindex="0">setting</div>
+        </div>
     </div>
 </div>
 </body>
