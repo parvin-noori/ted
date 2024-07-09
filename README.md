@@ -7,4 +7,5 @@ This project is a frontend redevelopment of the TED website, created as a practi
     Video.js Framework: For handling video playback with custom controls.
 
 Additionally, the website supports both RTL (right-to-left) and LTR (left-to-right) text directions, ensuring accessibility and usability for a diverse audience.
-You can view a live demo of the project https://parvin-noori.github.io/ted/.
+You can view a live demo of the project [here]( https://parvin-noori.github.io/ted/)
+
