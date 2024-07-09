@@ -164,5 +164,14 @@ $(document).ready(function () {
         }
 
     });
+
+         
+            $('.search-form').on('submit', function(e) {
+                e.preventDefault(); // Prevent default form submission
+
+                // Redirect to the search page
+                window.location.href = 'https://parvin-noori.github.io/ted/search';
+            });
+    
 });
 
