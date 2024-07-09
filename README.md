@@ -9,3 +9,5 @@ This project is a frontend redevelopment of the TED website, created as a practi
 Additionally, the website supports both RTL (right-to-left) and LTR (left-to-right) text directions, ensuring accessibility and usability for a diverse audience.
 You can view a live demo of the project [here]( https://parvin-noori.github.io/ted/)
 
+![Demo](https://github.com/parvin-noori/ted/blob/master/smartmockups_ted.jpg)
+
