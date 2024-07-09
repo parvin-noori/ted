@@ -1,4 +1,4 @@
-This project is a frontend redevelopment of the TED website, created as a practice exercise to enhance my web development skills. The aim was to replicate the visual aesthetics and functionality of the official TED website using modern frontend technologies. The following tools and frameworks were utilized in the development process:
+This project is a frontend redevelopment of the [TED website](https://www.ted.com), created as a practice exercise to enhance my web development skills. The aim was to replicate the visual aesthetics and functionality of the official TED website using modern frontend technologies. The following tools and frameworks were utilized in the development process:
 
     Swiper: For creating responsive and touch-friendly sliders.
     Font Awesome: For integrating scalable vector icons.
